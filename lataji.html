@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body">
+        <div class="name"><h1> <img src="images/lata.jpg" width="70px" style="border-radius: 50%; border: 6px double whitesmoke;">Udit <span style="color:rgb(17, 119, 4)">Narayan</span></h1>
+        <button><a href="singers.html">Go back</a></button>
+    </div>
+
+<div class="songlist">
+<!-- first -->
+<div class="songlist1">
+<img src="images/lata.jpg" width="60px" style="border-radius: 50%; border: 6px double whitesmoke;" >mp3Song
+<audio  id="song1">
+    <source src="songs/latasong1.mp3" type="audio/mpeg">
+</audio>
+<input type="range" value="0" id="progress1">
+<button id="pauseplay1" onclick="playpause1()" >pause || play</button>
+</div>
+<!-- second -->
+<div class="songlist1">
+    <img src="images/lata.jpg" width="60px" style="border-radius: 50%; border: 6px double whitesmoke;" >mp3Song
+    <audio  id="song2">
+        <source src="songs/latasong2.mp3" type="audio/mpeg">
+    </audio>
+    <input type="range" value="0" id="progress2">
+    <button id="pauseplay2" onclick="playpause2()" >pause || play</button>
+    </div>
+<!-- third -->
+<div class="songlist1">
+    <img src="images/lata.jpg" width="60px" style="border-radius: 50%; border: 6px double whitesmoke;" >mp3Song
+    <audio  id="song3">
+        <source src="songs/latasong3.mp3" type="audio/mpeg">
+    </audio>
+    <input type="range" value="0" id="progress3">
+    <button id="pauseplay3" onclick="playpause3()" >pause || play</button>
+    </div>
+<!-- fourth -->
+<div class="songlist1">
+    <img src="images/lata.jpg" width="50px" style="border-radius: 50%; border: 6px double whitesmoke;" >mp3Song
+    <audio  id="song4">
+        <source src="songs/latasong4.mp3" type="audio/mpeg">
+    </audio>
+    <input type="range" value="0" id="progress4">
+    <button id="pauseplay4" onclick="playpause4()" >pause || play</button>
+    </div>
+<!-- fifth -->
+<div class="songlist1">
+    <img src="images/lata.jpg" width="60px" style="border-radius: 50%; border: 6px double whitesmoke;" >mp3Song
+    <audio  id="song5">
+        <source src="songs/latasong5.mp3" type="audio/mpeg">
+    </audio>
+    <input type="range" value="0" id="progress5">
+    <button id="pauseplay5" onclick="playpause5()" >pause || play</button>
+    </div>
+
+
+</div>
+
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>

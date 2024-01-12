@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.name{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 20px 10px 20px;
+}
+h1{
+    color: whitesmoke;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.name button{
+    margin-top: 10px;
+width: 150px;
+height: 40px;
+background-color: rgba(56, 228, 33, 0.411);
+cursor: pointer;
+border-radius: 8px;
+border: none;
+}
+.name button a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.name button:hover{
+    background-color: rgb(17, 119, 4);
+}
+
+.songlist1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: rgb(129, 128, 128); */
+    margin:20px;
+    color: whitesmoke;
+    font-weight: bolder;
+    border-bottom: 1px solid rgb(46, 46, 46);
+    border-top:  1px solid rgb(46, 46, 46);
+    padding: 5px 5px 5px 5px;
+}
+
+#pauseplay1,#pauseplay2,#pauseplay3,#pauseplay4,#pauseplay5{
+    background-color: rgba(108, 110, 108, 0.411);
+cursor: pointer;
+height: 40px;
+width: 200px;
+border: none;  
+color: whitesmoke;
+}
+#pauseplay1:hover,#pauseplay2:hover,#pauseplay3:hover,#pauseplay4:hover,#pauseplay5:hover{
+    background-color: rgba(14, 100, 3, 0.959);   
+}
+#progress1,#progress2,#progress3,#progress4,#progress5{
+-webkit-appearance: none;
+    width: 600px;
+    height: 10px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 10px;
+}
+
+#progress1::-webkit-slider-thumb,#progress2::-webkit-slider-thumb,#progress3::-webkit-slider-thumb,#progress4::-webkit-slider-thumb,#progress5::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color:rgba(14, 100, 3, 0.959) ;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;  
+}
